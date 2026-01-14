@@ -1,6 +1,24 @@
-opencv-python
-tensorflow
-numpy
-pygame
-matplotlib
-deeplake
+# Emotion-Based Music Player Requirements
+
+# Core dependencies
+opencv-python>=4.8.0
+tensorflow>=2.13.0
+numpy>=1.24.0
+pygame>=2.5.0
+
+# Training dependencies
+matplotlib>=3.7.0
+deeplake>=3.8.0,<4.0.0  # IMPORTANT: Pin to 3.x - DeepLake 4.0 has breaking API changes
+
+# Additional utilities (optional but recommended)
+# Pillow>=10.0.0  # For potential album art display
+# python-dotenv>=1.0.0  # For environment configuration
+
+# Platform-specific notes:
+# - Windows: All packages should install without issues
+# - macOS: May need to install pygame via: pip install pygame --pre
+#   If you encounter issues with pygame on macOS, try:
+#   brew install sdl2 sdl2_image sdl2_mixer sdl2_ttf
+#   pip install pygame
+# - Linux: May need additional system packages:
+#   sudo apt-get install python3-opencv python3-pygame

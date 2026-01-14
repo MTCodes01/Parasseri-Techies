@@ -1,0 +1,195 @@
+2026-01-14 18:16:14 - EmotionMusicPlayer - INFO - ==================================================
+2026-01-14 18:16:14 - EmotionMusicPlayer - INFO - Emotion-Based Music Player Starting
+2026-01-14 18:16:14 - EmotionMusicPlayer - INFO - ==================================================
+2026-01-14 18:16:14 - EmotionMusicPlayer - INFO - Pygame mixer initialized successfully
+2026-01-14 18:16:14 - EmotionMusicPlayer - INFO - UI initialized successfully
+2026-01-14 18:16:14 - EmotionMusicPlayer - INFO - Initializing camera (device index: 0)
+2026-01-14 18:16:28 - EmotionMusicPlayer - INFO - Camera initialized: 640x480
+2026-01-14 18:16:28 - EmotionMusicPlayer - INFO - Face cascade classifier loaded
+2026-01-14 18:16:28 - EmotionMusicPlayer - INFO - Starting detection thread
+2026-01-14 18:16:28 - EmotionMusicPlayer - INFO - Starting emotion detection thread
+2026-01-14 18:16:28 - EmotionMusicPlayer - INFO - Starting UI main loop
+2026-01-14 18:16:28 - EmotionMusicPlayer - INFO - Loading model weights...
+2026-01-14 18:16:28 - EmotionMusicPlayer - INFO - Model weights loaded successfully
+2026-01-14 18:16:30 - EmotionMusicPlayer - INFO - Emotion changed: None -> Fear (confidence: 100.00%)
+2026-01-14 18:16:30 - EmotionMusicPlayer - INFO - Playing Fear track: Ennilerinju   Rzee   Sithara Krishnakumar.wav
+2026-01-14 18:16:40 - EmotionMusicPlayer - INFO - Emotion changed: Fear -> Neutral (confidence: 86.67%)
+2026-01-14 18:16:41 - EmotionMusicPlayer - INFO - Playing Neutral track: Tum Kyu Chale Ate Ho (Lofi)   Vicky Singh.wav
+2026-01-14 18:16:51 - EmotionMusicPlayer - INFO - Emotion changed: Neutral -> Surprise (confidence: 100.00%)
+2026-01-14 18:16:52 - EmotionMusicPlayer - INFO - Playing Surprise track: d2c2cd4b-8d07-4093-9577-96e2c5a02387.wav
+2026-01-14 18:17:02 - EmotionMusicPlayer - INFO - Emotion changed: Surprise -> Happy (confidence: 100.00%)
+2026-01-14 18:17:03 - EmotionMusicPlayer - INFO - Playing Happy track: One Love   Shubh.wav
+2026-01-14 18:17:53 - EmotionMusicPlayer - INFO - Emotion changed: Happy -> Neutral (confidence: 80.00%)
+2026-01-14 18:17:55 - EmotionMusicPlayer - INFO - Playing Neutral track: file_29974.wav
+2026-01-14 18:18:05 - EmotionMusicPlayer - INFO - Emotion changed: Neutral -> Fear (confidence: 80.00%)
+2026-01-14 18:18:06 - EmotionMusicPlayer - INFO - Playing Fear track: 1682789839168615998Insane-140_-_audio_only_medium.m4a.wav
+2026-01-14 18:18:16 - EmotionMusicPlayer - INFO - Emotion changed: Fear -> Neutral (confidence: 100.00%)
+2026-01-14 18:18:17 - EmotionMusicPlayer - INFO - Playing Neutral track: Payphone (Edit) (feat. Wiz Khalifa)   Maroon 5.wav
+2026-01-14 18:18:32 - EmotionMusicPlayer - INFO - User quit application
+2026-01-14 18:18:32 - EmotionMusicPlayer - INFO - Music player quit successfully
+2026-01-14 18:18:32 - EmotionMusicPlayer - INFO - Application shutting down
+2026-01-14 18:18:32 - EmotionMusicPlayer - WARNING - Failed to read frame from camera
+2026-01-14 18:18:32 - EmotionMusicPlayer - INFO - Emotion detection thread stopped
+2026-01-14 18:18:32 - EmotionMusicPlayer - INFO - Application closed
+2026-01-14 21:22:01 - EmotionMusicPlayer - INFO - ==================================================
+2026-01-14 21:22:01 - EmotionMusicPlayer - INFO - Emotion-Based Music Player Starting
+2026-01-14 21:22:01 - EmotionMusicPlayer - INFO - ==================================================
+2026-01-14 21:22:01 - EmotionMusicPlayer - INFO - Pygame mixer initialized successfully
+2026-01-14 21:22:01 - EmotionMusicPlayer - INFO - UI initialized successfully
+2026-01-14 21:22:01 - EmotionMusicPlayer - INFO - Initializing camera (device index: 0)
+2026-01-14 21:22:17 - EmotionMusicPlayer - INFO - Camera initialized: 640x480
+2026-01-14 21:22:17 - EmotionMusicPlayer - INFO - Face cascade classifier loaded
+2026-01-14 21:22:17 - EmotionMusicPlayer - INFO - Starting detection thread
+2026-01-14 21:22:17 - EmotionMusicPlayer - INFO - Starting emotion detection thread
+2026-01-14 21:22:17 - EmotionMusicPlayer - INFO - Starting UI main loop
+2026-01-14 21:22:17 - EmotionMusicPlayer - INFO - Loading model weights...
+2026-01-14 21:22:17 - EmotionMusicPlayer - CRITICAL - Failed to load model weights: A total of 1 objects could not be loaded. Example error message for object <Dense name=dense, built=True>:
+
+The shape of the target variable and the shape of the target value in `variable.assign(value)` must match. variable.shape=(2048, 1024), Received: value.shape=(4608, 1024). Target variable: <Variable path=sequential/dense/kernel, shape=(2048, 1024), dtype=float32, value=[[ 0.03698612  0.01161863 -0.04183982 ...  0.03446161  0.0241057
+   0.0123579 ]
+ [-0.00248336 -0.030857    0.01014951 ...  0.00099093 -0.02718091
+   0.02709549]
+ [-0.01937118 -0.02692705  0.00321729 ... -0.01926617 -0.02696724
+   0.01258565]
+ ...
+ [-0.02484242 -0.02246115 -0.01970766 ... -0.01449439  0.01788677
+  -0.03197328]
+ [ 0.00997091  0.03401526  0.00824704 ... -0.039056   -0.02316234
+   0.00932566]
+ [ 0.04110653  0.01652949  0.02745179 ... -0.00698617 -0.01684066
+  -0.01232541]]>
+
+List of objects that could not be loaded:
+[<Dense name=dense, built=True>]
+2026-01-14 21:23:58 - EmotionMusicPlayer - INFO - ==================================================
+2026-01-14 21:23:58 - EmotionMusicPlayer - INFO - Emotion-Based Music Player Starting
+2026-01-14 21:23:58 - EmotionMusicPlayer - INFO - ==================================================
+2026-01-14 21:23:58 - EmotionMusicPlayer - INFO - Pygame mixer initialized successfully
+2026-01-14 21:23:58 - EmotionMusicPlayer - INFO - UI initialized successfully
+2026-01-14 21:23:58 - EmotionMusicPlayer - INFO - Initializing camera (device index: 0)
+2026-01-14 21:24:14 - EmotionMusicPlayer - INFO - Camera initialized: 640x480
+2026-01-14 21:24:14 - EmotionMusicPlayer - INFO - Face cascade classifier loaded
+2026-01-14 21:24:14 - EmotionMusicPlayer - INFO - Starting detection thread
+2026-01-14 21:24:14 - EmotionMusicPlayer - INFO - Starting emotion detection thread
+2026-01-14 21:24:14 - EmotionMusicPlayer - INFO - Starting UI main loop
+2026-01-14 21:24:14 - EmotionMusicPlayer - INFO - Loading model weights...
+2026-01-14 21:24:14 - EmotionMusicPlayer - INFO - Model weights loaded successfully
+2026-01-14 21:24:26 - EmotionMusicPlayer - INFO - Emotion changed: None -> Fear (confidence: 0.00%)
+2026-01-14 21:24:26 - EmotionMusicPlayer - INFO - Playing Fear track: I m Scared (From  Leo )   Anirudh Ravichander.wav
+2026-01-14 21:24:34 - EmotionMusicPlayer - INFO - User quit application
+2026-01-14 21:24:34 - EmotionMusicPlayer - INFO - Music player quit successfully
+2026-01-14 21:24:34 - EmotionMusicPlayer - INFO - Application shutting down
+2026-01-14 21:24:34 - EmotionMusicPlayer - WARNING - Failed to read frame from camera
+2026-01-14 21:24:34 - EmotionMusicPlayer - INFO - Emotion detection thread stopped
+2026-01-14 21:24:35 - EmotionMusicPlayer - INFO - Application closed
+2026-01-14 22:12:40 - EmotionMusicPlayer - INFO - ==================================================
+2026-01-14 22:12:40 - EmotionMusicPlayer - INFO - Emotion-Based Music Player Starting
+2026-01-14 22:12:40 - EmotionMusicPlayer - INFO - ==================================================
+2026-01-14 22:12:40 - EmotionMusicPlayer - INFO - Pygame mixer initialized successfully
+2026-01-14 22:12:40 - EmotionMusicPlayer - INFO - UI initialized successfully
+2026-01-14 22:12:40 - EmotionMusicPlayer - INFO - Initializing camera (device index: 0)
+2026-01-14 22:12:56 - EmotionMusicPlayer - INFO - Camera initialized: 640x480
+2026-01-14 22:12:56 - EmotionMusicPlayer - INFO - Face cascade classifier loaded
+2026-01-14 22:12:56 - EmotionMusicPlayer - INFO - Starting detection thread
+2026-01-14 22:12:56 - EmotionMusicPlayer - INFO - Starting emotion detection thread
+2026-01-14 22:12:56 - EmotionMusicPlayer - INFO - Starting UI main loop
+2026-01-14 22:12:56 - EmotionMusicPlayer - INFO - Loading model weights...
+2026-01-14 22:12:56 - EmotionMusicPlayer - INFO - Model weights loaded successfully
+2026-01-14 22:12:58 - EmotionMusicPlayer - INFO - Emotion changed: None -> Fear (confidence: 100.00%)
+2026-01-14 22:12:58 - EmotionMusicPlayer - INFO - Playing Fear track: 1682789839168615998Insane-140_-_audio_only_medium.m4a.wav
+2026-01-14 22:13:08 - EmotionMusicPlayer - INFO - Emotion changed: Fear -> Happy (confidence: 20.00%)
+2026-01-14 22:13:09 - EmotionMusicPlayer - INFO - Playing Happy track: Urugi_Urugi_From_Joe_Siddhu_Kumar_Vignesh_Ramakrishna.wav
+2026-01-14 22:13:19 - EmotionMusicPlayer - INFO - Emotion changed: Happy -> Fear (confidence: 100.00%)
+2026-01-14 22:13:20 - EmotionMusicPlayer - INFO - Playing Fear track: Paisa_Hai_Toh_Sachin_Jigar,_Vishal_Dadlani,_Mellow_D,_Jigar_Sa.wav
+2026-01-14 22:13:50 - EmotionMusicPlayer - INFO - Emotion changed: Fear -> Neutral (confidence: 60.00%)
+2026-01-14 22:13:52 - EmotionMusicPlayer - INFO - Playing Neutral track: Payphone (Edit) (feat. Wiz Khalifa)   Maroon 5.wav
+2026-01-14 22:14:02 - EmotionMusicPlayer - INFO - Emotion changed: Neutral -> Fear (confidence: 100.00%)
+2026-01-14 22:14:03 - EmotionMusicPlayer - INFO - Playing Fear track: Ennilerinju   Rzee   Sithara Krishnakumar.wav
+2026-01-14 22:16:03 - EmotionMusicPlayer - INFO - Emotion changed: Fear -> Neutral (confidence: 0.00%)
+2026-01-14 22:16:04 - EmotionMusicPlayer - INFO - Playing Neutral track: Tum Kyu Chale Ate Ho (Lofi)   Vicky Singh.wav
+2026-01-14 22:16:19 - EmotionMusicPlayer - INFO - ==================================================
+2026-01-14 22:16:19 - EmotionMusicPlayer - INFO - Emotion-Based Music Player Starting
+2026-01-14 22:16:19 - EmotionMusicPlayer - INFO - ==================================================
+2026-01-14 22:16:19 - EmotionMusicPlayer - INFO - Pygame mixer initialized successfully
+2026-01-14 22:16:19 - EmotionMusicPlayer - INFO - UI initialized successfully
+2026-01-14 22:16:19 - EmotionMusicPlayer - INFO - Initializing camera (device index: 0)
+2026-01-14 22:16:34 - EmotionMusicPlayer - INFO - Camera initialized: 640x480
+2026-01-14 22:16:34 - EmotionMusicPlayer - INFO - Face cascade classifier loaded
+2026-01-14 22:16:34 - EmotionMusicPlayer - INFO - Starting detection thread
+2026-01-14 22:16:34 - EmotionMusicPlayer - INFO - Starting emotion detection thread
+2026-01-14 22:16:34 - EmotionMusicPlayer - INFO - Starting UI main loop
+2026-01-14 22:16:34 - EmotionMusicPlayer - INFO - Loading model weights...
+2026-01-14 22:16:34 - EmotionMusicPlayer - INFO - Model weights loaded successfully
+2026-01-14 22:16:45 - EmotionMusicPlayer - INFO - Emotion changed: None -> Happy (confidence: 53.33%)
+2026-01-14 22:16:46 - EmotionMusicPlayer - INFO - Playing Happy track: Happier   Marshmello, Bastille.wav
+2026-01-14 22:17:06 - EmotionMusicPlayer - INFO - Emotion changed: Happy -> Surprise (confidence: 73.33%)
+2026-01-14 22:17:07 - EmotionMusicPlayer - INFO - Playing Surprise track: Kando Kando   Amit Trivedi Gowry Lakshmi.wav
+2026-01-14 22:17:17 - EmotionMusicPlayer - INFO - Emotion changed: Surprise -> Sad (confidence: 0.00%)
+2026-01-14 22:17:18 - EmotionMusicPlayer - INFO - Playing Sad track: changes   XXXTENTACION.wav
+2026-01-14 22:17:28 - EmotionMusicPlayer - INFO - Emotion changed: Sad -> Neutral (confidence: 40.00%)
+2026-01-14 22:17:29 - EmotionMusicPlayer - INFO - Playing Neutral track: Tum Kyu Chale Ate Ho (Lofi)   Vicky Singh.wav
+2026-01-14 22:18:09 - EmotionMusicPlayer - INFO - Emotion changed: Neutral -> Surprise (confidence: 0.00%)
+2026-01-14 22:18:10 - EmotionMusicPlayer - INFO - Playing Surprise track: d2c2cd4b-8d07-4093-9577-96e2c5a02387.wav
+2026-01-14 22:18:20 - EmotionMusicPlayer - INFO - Emotion changed: Surprise -> Happy (confidence: 100.00%)
+2026-01-14 22:18:21 - EmotionMusicPlayer - INFO - Playing Happy track: One Love   Shubh.wav
+2026-01-14 22:18:41 - EmotionMusicPlayer - INFO - Emotion changed: Happy -> Neutral (confidence: 33.33%)
+2026-01-14 22:18:43 - EmotionMusicPlayer - INFO - Playing Neutral track: Payphone (Edit) (feat. Wiz Khalifa)   Maroon 5.wav
+2026-01-14 22:18:53 - EmotionMusicPlayer - INFO - Emotion changed: Neutral -> Sad (confidence: 100.00%)
+2026-01-14 22:18:54 - EmotionMusicPlayer - INFO - Playing Sad track: Kanave Kanave   Anirudh, Anirudh, Mohanrajan.wav
+2026-01-14 22:19:04 - EmotionMusicPlayer - INFO - Emotion changed: Sad -> Neutral (confidence: 26.67%)
+2026-01-14 22:19:05 - EmotionMusicPlayer - INFO - Playing Neutral track: file_29974.wav
+2026-01-14 22:19:15 - EmotionMusicPlayer - INFO - Emotion changed: Neutral -> Sad (confidence: 86.67%)
+2026-01-14 22:19:16 - EmotionMusicPlayer - INFO - Playing Sad track: 5e30cd52-02cd-427e-81d8-753e3cfa6791.wav
+2026-01-14 22:19:36 - EmotionMusicPlayer - INFO - Emotion changed: Sad -> Fear (confidence: 53.33%)
+2026-01-14 22:19:37 - EmotionMusicPlayer - INFO - Playing Fear track: 1682789839168615998Insane-140_-_audio_only_medium.m4a.wav
+2026-01-14 22:19:47 - EmotionMusicPlayer - INFO - Emotion changed: Fear -> Happy (confidence: 100.00%)
+2026-01-14 22:19:48 - EmotionMusicPlayer - INFO - Playing Happy track: Thangamey   Anirudh Ravichander.wav
+2026-01-14 22:20:39 - EmotionMusicPlayer - INFO - Emotion changed: Happy -> Neutral (confidence: 66.67%)
+2026-01-14 22:20:40 - EmotionMusicPlayer - INFO - Playing Neutral track: Payphone (Edit) (feat. Wiz Khalifa)   Maroon 5.wav
+2026-01-14 22:21:10 - EmotionMusicPlayer - INFO - Emotion changed: Neutral -> Angry (confidence: 73.33%)
+2026-01-14 22:21:11 - EmotionMusicPlayer - INFO - Playing Angry track: 1f05ee24-9ae5-43e3-9ca0-1d9597799b9e.wav
+2026-01-14 22:21:29 - EmotionMusicPlayer - INFO - ==================================================
+2026-01-14 22:21:29 - EmotionMusicPlayer - INFO - Emotion-Based Music Player Starting
+2026-01-14 22:21:29 - EmotionMusicPlayer - INFO - ==================================================
+2026-01-14 22:21:29 - EmotionMusicPlayer - INFO - Pygame mixer initialized successfully
+2026-01-14 22:21:29 - EmotionMusicPlayer - INFO - UI initialized successfully
+2026-01-14 22:21:29 - EmotionMusicPlayer - INFO - Initializing camera (device index: 0)
+2026-01-14 22:21:44 - EmotionMusicPlayer - INFO - Camera initialized: 640x480
+2026-01-14 22:21:44 - EmotionMusicPlayer - INFO - Face cascade classifier loaded
+2026-01-14 22:21:44 - EmotionMusicPlayer - INFO - Starting detection thread
+2026-01-14 22:21:44 - EmotionMusicPlayer - INFO - Starting emotion detection thread
+2026-01-14 22:21:44 - EmotionMusicPlayer - INFO - Starting UI main loop
+2026-01-14 22:21:45 - EmotionMusicPlayer - INFO - Loading model weights...
+2026-01-14 22:21:45 - EmotionMusicPlayer - INFO - Model weights loaded successfully
+2026-01-14 22:21:56 - EmotionMusicPlayer - INFO - Emotion changed: None -> Happy (confidence: 100.00%)
+2026-01-14 22:21:56 - EmotionMusicPlayer - INFO - Playing Happy track: Urugi_Urugi_From_Joe_Siddhu_Kumar_Vignesh_Ramakrishna.wav
+2026-01-14 22:22:06 - EmotionMusicPlayer - INFO - Emotion changed: Happy -> Surprise (confidence: 60.00%)
+2026-01-14 22:22:07 - EmotionMusicPlayer - INFO - Playing Surprise track: Señorita   Shawn Mendes, Camila Cabello.wav
+2026-01-14 22:22:17 - EmotionMusicPlayer - INFO - Emotion changed: Surprise -> Neutral (confidence: 100.00%)
+2026-01-14 22:22:18 - EmotionMusicPlayer - INFO - Music paused
+2026-01-14 22:22:18 - EmotionMusicPlayer - INFO - Playing Neutral track: Tum Kyu Chale Ate Ho (Lofi)   Vicky Singh.wav
+2026-01-14 22:22:19 - EmotionMusicPlayer - INFO - Music paused
+2026-01-14 22:22:28 - EmotionMusicPlayer - INFO - Emotion changed: Neutral -> Happy (confidence: 100.00%)
+2026-01-14 22:22:29 - EmotionMusicPlayer - INFO - Playing Happy track: d0fa0396-8a76-4742-b1cc-e0794a6bc05f.wav
+2026-01-14 22:22:33 - EmotionMusicPlayer - INFO - Music paused
+2026-01-14 22:22:49 - EmotionMusicPlayer - INFO - Emotion changed: Happy -> Angry (confidence: 0.00%)
+2026-01-14 22:22:50 - EmotionMusicPlayer - INFO - Playing Angry track: b8a5cb4c-64b0-4721-a81d-74bd6574f5b7.wav
+2026-01-14 22:23:00 - EmotionMusicPlayer - INFO - Emotion changed: Angry -> Happy (confidence: 100.00%)
+2026-01-14 22:23:02 - EmotionMusicPlayer - INFO - Playing Happy track: ee94dae1-cc79-4ba6-af7f-86bde8b4039f.wav
+2026-01-14 22:23:22 - EmotionMusicPlayer - INFO - Emotion changed: Happy -> Sad (confidence: 93.33%)
+2026-01-14 22:23:23 - EmotionMusicPlayer - INFO - Playing Sad track: changes   XXXTENTACION.wav
+2026-01-14 22:23:33 - EmotionMusicPlayer - INFO - Emotion changed: Sad -> Happy (confidence: 0.00%)
+2026-01-14 22:23:34 - EmotionMusicPlayer - INFO - Playing Happy track: Happier   Marshmello, Bastille.wav
+2026-01-14 22:23:41 - EmotionMusicPlayer - INFO - Music paused
+2026-01-14 22:23:44 - EmotionMusicPlayer - INFO - Emotion changed: Happy -> Neutral (confidence: 93.33%)
+2026-01-14 22:23:45 - EmotionMusicPlayer - INFO - Playing Neutral track: file_29974.wav
+2026-01-14 22:23:55 - EmotionMusicPlayer - INFO - Emotion changed: Neutral -> Happy (confidence: 93.33%)
+2026-01-14 22:23:56 - EmotionMusicPlayer - INFO - Playing Happy track: One Love   Shubh.wav
+2026-01-14 22:24:06 - EmotionMusicPlayer - INFO - Emotion changed: Happy -> Angry (confidence: 40.00%)
+2026-01-14 22:24:07 - EmotionMusicPlayer - INFO - Playing Angry track: 1f05ee24-9ae5-43e3-9ca0-1d9597799b9e.wav
+2026-01-14 22:24:16 - EmotionMusicPlayer - INFO - User quit application
+2026-01-14 22:24:16 - EmotionMusicPlayer - INFO - Music player quit successfully
+2026-01-14 22:24:16 - EmotionMusicPlayer - INFO - Application shutting down
+2026-01-14 22:24:16 - EmotionMusicPlayer - WARNING - Failed to read frame from camera
+2026-01-14 22:24:16 - EmotionMusicPlayer - INFO - Emotion detection thread stopped
+2026-01-14 22:24:17 - EmotionMusicPlayer - INFO - Application closed

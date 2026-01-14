@@ -1,0 +1,32 @@
+{
+  "emotion_detection": {
+    "confidence_threshold": 0.45,
+    "minimum_emotion_duration": 3.0,
+    "smoothing_window_size": 15,
+    "buffer_duration": 10
+  },
+  "camera": {
+    "device_index": 0,
+    "frame_width": 640,
+    "frame_height": 480,
+    "scale_factor": 1.3,
+    "min_neighbors": 5
+  },
+  "audio": {
+    "supported_formats": [".mp3", ".wav", ".ogg", ".flac"],
+    "fade_duration_ms": 1000,
+    "default_volume": 0.7
+  },
+  "ui": {
+    "window_width": 512,
+    "window_height": 850,
+    "show_confidence": true,
+    "theme": "dark"
+  },
+  "logging": {
+    "enabled": true,
+    "level": "INFO",
+    "log_to_file": true,
+    "log_file": "emotion_music_player.log"
+  }
+}
