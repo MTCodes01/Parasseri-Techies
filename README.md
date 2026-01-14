@@ -83,7 +83,7 @@ The **Emotion-Detecting Music Player** is an intelligent application that uses f
     pip install -r requirements.txt
     ```
 
-5. Download the pre-trained model: [Click here](https://drive.google.com/file/d/1ovr_qhyfKxpqIdyd5WFfvHA807Jln9Nr/view?usp=sharing)
+5. Download the pre-trained model: [Click here](https://drive.google.com/file/d/1M52BHKj0jHqzLb_hWR32xqRU-RADDikV/view?usp=sharing)
    - Place `model.weights.h5` in the project root directory
    - **OR** train your own model (see Training section below)
 
