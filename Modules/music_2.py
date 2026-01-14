@@ -42,17 +42,31 @@ def determine_emotion(song):
     # In a real-world scenario, replace this with actual emotion detection logic
     return 3  # For demonstration purposes, return the integer for 'Happy'
 
-# Recommend songs based on the emotion of a given song
-def recommend_songs_based_on_emotion(song):
+# Recommend songs based on the emotion of a given song,
+# ensuring that the last played song is not recommended again.
+def recommend_songs_based_on_emotion(song, last_played_song=None):
     emotion = determine_emotion(song)
     if emotion in all_songs:
-        return all_songs[emotion]
+        recommended_songs = all_songs[emotion]
+        # Filter out the last played song
+        if last_played_song:
+            recommended_songs = [s for s in recommended_songs if s != last_played_song]
+        return recommended_songs
     else:
         return []
- 
+
 # Example usage
 song_to_recommend = 'test'
-recommended_songs = recommend_songs_based_on_emotion(song_to_recommend)
-print("Recommended Songs:")
-for song in recommended_songs:
-    print(song)
+last_played_song = None  # Initially, no song has been played
+
+# Simulate playing and recommending songs
+for _ in range(3):  # Let's simulate 3 rounds of song recommendations
+    recommended_songs = recommend_songs_based_on_emotion(song_to_recommend, last_played_song)
+    
+    if recommended_songs:
+        # Select the first song as the next song to play
+        next_song_to_play = recommended_songs[0]
+        print(f"Playing: {next_song_to_play}")
+        last_played_song = next_song_to_play  # Update the last played song
+    else:
+        print("No more songs to recommend.")

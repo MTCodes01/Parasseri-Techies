@@ -88,3 +88,57 @@
 
 # for file_path in file_paths:
 #     print(file_path)
+
+# Python program demonstrating 
+# Multiple selection in Listbox widget 
+
+# from tkinter import *
+
+# def select_emotion(selected_button, selected_color):
+#     # Reset all buttons to their lighter shades
+#     for button in buttons:
+#         button.config(bg=lighter_colors[buttons[button]])
+    
+#     # Highlight the selected button with the bright color
+#     selected_button.config(bg=selected_color)
+
+# window = Tk()
+# window.geometry('600x100')  # Adjust the size to fit the horizontal layout
+
+# # Define a dictionary with emotions and their associated bright colors
+# emotions = {
+#     "Angry": "red",
+#     "Disgust": "green",
+#     "Fear": "purple",
+#     "Happy": "yellow",
+#     "Neutral": "gray",
+#     "Sad": "blue",
+#     "Surprise": "orange"
+# }
+
+# # Define lighter shades for the non-selected state
+# lighter_colors = {
+#     "Angry": "#ffcccc",
+#     "Disgust": "#ccffcc",
+#     "Fear": "#e5ccff",
+#     "Happy": "#ffffcc",
+#     "Neutral": "#d9d9d9",
+#     "Sad": "#ccccff",
+#     "Surprise": "#ffedcc"
+# }
+
+# # Create a frame to hold the buttons
+# frame = Frame(window)
+# frame.pack(expand=YES, fill="both")
+
+# # Create a dictionary to hold the buttons
+# buttons = {}
+
+# # Create and pack a button for each emotion with its corresponding bright color initially
+# for emotion, color in emotions.items():
+#     button = Button(frame, text=emotion, bg=color, width=10,
+#                     command=lambda b=Button, c=color: select_emotion(b, c))
+#     button.pack(side=LEFT, padx=5)
+#     buttons[button] = emotion  # Store the button and its emotion in the dictionary
+
+# window.mainloop()

@@ -15,7 +15,7 @@ ui = EmotionMusicUI(player)
 
 # Buffer to hold recognized emotions over a short period
 emotion_buffer = []
-buffer_duration = 5  # seconds
+buffer_duration = 10 # seconds
 start_time = time.time()
 
 # Start the webcam feed
